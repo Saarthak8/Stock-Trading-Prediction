@@ -1,7 +1,7 @@
 ### Keras and Tensorflow >2.0
 ### Data Collection
 import pandas_datareader as pdr
-key=""
+key="af38ae36be8d22b47fb4743347af8c9be2590905"
 df = pdr.get_data_tiingo('AAPL', api_key=key)
 df.to_csv('AAPL.csv')
 import pandas as pd
