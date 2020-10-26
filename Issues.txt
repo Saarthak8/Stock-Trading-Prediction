@@ -1,0 +1,3 @@
+LIST OF CURRENT ISSUES
+
+-> Need to find a free API for real-time BSE and NSE data. The current one (TIINGO) only provides data for US based stocks.
