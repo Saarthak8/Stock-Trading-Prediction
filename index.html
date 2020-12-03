@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" 
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loader">
+    </div>
+    <div class="contain">
+        <div class="container">
+        <div class="jumbotron">
+            <img src="bot.png" alt="bot image" id="image" />
+            <h1 class="display-4">Stock Market Predictor</h1>
+            <p class="lead">A bot which will predict stock prices based on previous stock price patterns.</p>
+            <hr class="my-4">
+        </div>
+        </div>
+        <div class="input">
+            <label for="comp">Enter Company Ticker</label>
+            <br>
+            <input type="text" id="comp">
+            <br>
+            <button type="button" class="btn btn-secondary" id="button1">Predict</button>
+        </div>
+        <div class="row graphs">
+                <canvas id="myChart1" class="col-xl-8 col-lg-8 col-sm-8"></canvas>
+                <!-- <canvas id="myChart2" width="400" height="400"></canvas> -->
+        </div>
+        <div class="details">
+        </div>
+
+        <div class="foot">
+            <p>© Copyright 2018. All Rights Reserved. </p>
+        </div>
+    </div>
+</body>
+
+</html>
