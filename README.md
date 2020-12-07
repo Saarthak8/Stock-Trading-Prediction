@@ -1,1 +1,2 @@
-Stock Trading Prediction project by S.P.A.M.
+Stock Trading Prediction website by Saarthak Srivastava.
+All rights reserved.
